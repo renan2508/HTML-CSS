@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Flexível</title>
+    <style>
+        .center{
+            text-align: center;
+        }
+    </style>
+    <style>
+        body{
+            background-color: rgb(19, 15, 15);
+        }
+    </style>
+</head>
+<body>
+    <div class=center>  
+    <h1 style="color: aliceblue;">Imagens Flexíveis</h1>
+    <p style="color: aliceblue;">Experimente mudar o zoom ou até mesmo o seu dispositivo para diferenciar as imagens!</p>
+    <picture>
+        <source media="(max-width: 550px)" srcset="imagens/paisagem-p.png" type="image/png">
+        <source media="(max-width: 1200px)" srcset="imagens/paisagem-m.png" type="image/png">
+        <img src="imagens/paisagem-g.png" alt="pequena">
+    </picture>
+    </div>
+</body>
+</html>

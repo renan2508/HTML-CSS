@@ -1,0 +1,23 @@
+@charset "UTF-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.conteudo{
+    border: 2px solid black;
+    padding: 10px;
+    width: 580px;
+}
+.html{
+    color: orange;
+    font: normal bold 16px monospace
+}
+.css{
+    color: royalblue;
+    font: normal bold 16px monospace
+}
+a:visited{
+    color: rgb(78, 159, 206);
+}
+a:hover{
+    color: blueviolet;
+}
