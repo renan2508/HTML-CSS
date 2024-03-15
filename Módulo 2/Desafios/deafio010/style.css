@@ -1,0 +1,156 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "ZFonte";
+    src: url("ZFonte.otf") format("opentype");
+}
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Protest+Riot&display=swap');
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#E9E6C3;
+    margin: 0px;
+}
+header{
+    color: white;
+    background: linear-gradient(#39CE7C,#2A9558,#268551,#1E6A40,#1A5E38);
+    height: 170px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 4px 0px 10px black;    
+}
+header > h1{
+    font-family:"Courier Prime", monospace;
+}
+nav{
+    color: white;
+    font-size: 15px;
+    padding: 3px;
+    border-radius: 5px;
+    text-align: left;
+    text-indent: 10px;
+}
+nav > a{
+    color: white;
+    padding: 3px;
+    font-weight: bold;
+    margin-right: 10px;
+    text-decoration: none;
+}
+nav > a:hover{
+    background-color: #2A9558;
+    color: lightgreen;
+    border-radius: 5px;
+    text-decoration: none;
+}
+a{
+    color: #1A5C38;
+    font-weight: bolder;
+    text-decoration: none;
+}
+main{
+    width: 100%;
+    max-width: 1030px;
+    margin: auto;
+}
+a:hover{
+    text-decoration: underline;
+}
+.section{
+    background-color: white;
+    padding: 8px;
+    box-shadow: 0px 4px 12px black;
+}
+.section h1{
+    font-family: "ZFonte";
+    font-size: 25px;
+    color:#1F603D;
+}
+.section h2{
+    font-family: "ZFonte";
+    font-size: 18px;
+    color:#1F603D;
+    background: linear-gradient(to right, rgba(132, 225, 173, 0.4), white)
+}
+.section > p{
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+}
+.imagem{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#video{
+    background-color: #043D1D;
+    margin: auto;
+    padding: 15px 0px;
+    width: 100%;
+    max-width: 1030px;
+    box-shadow: 0px 4px 8px black;
+}
+.video{
+    display: block;
+    width: 75%;
+    padding: 5px;
+    height: 300px;
+    margin: auto;
+}
+.final{
+    background-color: white;
+    height: 100%;
+    padding: 1px;
+    min-height: 480px;
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
+    font-size: 14px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0px 4px 12px black;
+}
+.plus{
+    padding: 1px;
+    color: white;
+    font-weight: bolder;
+    text-indent: 10px;
+    background-color: #2FA866;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.versoes_um{
+    background-color: rgba(165, 247, 192, 0.8);
+    border-radius: 5px;
+    padding: 20px;
+    text-indent: 25px;
+    text-align: justify;
+}
+.lista_um{
+    display: inline-block;
+    text-indent: 0px;
+    text-decoration: underline;
+}
+.lista_dois{
+    display: inline-block;
+    text-decoration: underline;
+}
+.rodape{
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+.rodape a{
+    color: white;
+}
+.mark{
+    color: #1A5C38;
+    font-weight: bold;
+}
+.emojilink::after{
+    content: "🔗";
+}
