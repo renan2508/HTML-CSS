@@ -1,25 +1,69 @@
 @charset 'UTF-8';
 
-body{
+*{
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
 }
 header{
-    padding: 15px;
-    height: 100px;
-    color: white;
     background-color: black;
+    color: white;
+
     text-align: center;
 }
 header h1{
-    margin: 0px;
+    padding-top: 50px;
+    font-variant: small-caps;
 }
-header a{
+header p{
+    padding-bottom: 50px;
+}
+header a, footer a{
     color: white;
-    text-decoration: none;
     font-weight: bold;
+    text-decoration: none;
 }
-header a:hover{
+header a:hover, footer a:hover{
     text-decoration: underline;
+}
+/*------------------------------------*/
+section{
+    padding: 10vh 0px;
+    line-height: 2;
+    padding-left: 30px;
+}
+section.normal{
+    background-color: white;
+}
+section.imagem1, section.imagem2{
+    background-color: rgba(0, 0, 0, 0.685);
+    color: white;
+}
+section.imagem1 p, section.imagem2 p{
+    background-color: rgba(0, 0, 0, 0.336);
+    width: 300px;
+}
+
+section.imagem1{
+    background: rgba(0, 0, 0, 0.685) url(imagens/background001.jpg) center right fixed;
+    background-size: cover;
+}
+section.imagem2{
+    background: rgba(0, 0, 0, 0.685) url(imagens/background002.jpg) center center fixed;
+    background-size: cover;
+}
+
+
+
+
+/*------------------------------------*/
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
 }
