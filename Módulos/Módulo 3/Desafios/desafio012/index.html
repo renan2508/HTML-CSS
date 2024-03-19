@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem do Espaço</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        div.container{
+            height: 100vh;
+            background: black url(imagens/espaco.jpg) no-repeat fixed;
+            background-size: cover;
+        }
+        img.astro{
+            height: 350px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <img src="imagens/astronauta.png" alt="astro" class="astro">
+        </div>
+    </div>
+</body>
+</html>
