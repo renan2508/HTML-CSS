@@ -17,20 +17,36 @@
             padding: 10px;
         }
         thead, tfoot{
-            background-color: gray;
+            background-color: rgb(41, 38, 38);
             color: white;
         }
         td.numero{
             text-align: right;
+        }
+        caption{
+            background-color: rgba(211, 211, 211, 0.486);
+            padding: 10px;
+
+            font-size: 14px;
+            font-weight: bold;
+        }
+        tbody tr:nth-child(2n){
+            background-color: lightgray;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background: #383838;
         }
     </style>
 </head>
 <body>
     <h1>Tabelas MAIORES big big</h1>
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
-            <th>Estado</th>
-            <th>População</th>
+            <th scope="col">Estado</th>
+            <th scope="col">População</th>
         </thead>
         <tbody>
             <tr>
@@ -45,11 +61,22 @@
                 <td>Rio de Janeiro</td>
                 <td class="numero">16 054 524</td>
             </tr>
-            
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14 141 626</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="numero">11 444 380</td>
+            </tr>
+            <tr>
+                <td> Rio Grande do Sul</td>
+                <td class="numero">10 882 965</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td><strong>81 004 480</strong></td>
             </tr>
         </tfoot>
